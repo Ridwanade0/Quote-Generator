@@ -133,5 +133,5 @@ btn.addEventListener('click', function () {
   console.log(random);
 
   quote.innerText = quotes[random].quote;
-  author.innerText = quotes[random].author;
+  author.innerText = quotes[random].author.toUpperCase();
 });
